@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Website</title>
+</head>
+<body>
+    <div>
+        <div class="header">
+            <a href="#">HOME</a>
+            <a href="#">ABOUT ME</a>
+            <a href="#">PHOTOS</a>
+            <a href="#">CONTACT</a>
+        </div>
+        <div class="body">
+            <div class="right">Hi! I'm Glydel Caro Carisma 
+                <br>BS Info Tech 2-D</br></div>
+            <div class="left">
+                <img src="glydell.jpeg" alt="">        
+            </div>
+        </div>
+        <footer></footer>
+</body>
+</html>
+
+<style>
+    body {
+        margin: 0%;
+    }
+    .header {
+        background-color: grey;
+        padding: 20px;
+        text-align: end;
+        margin-bottom: 3px;
+        font-size: 1.2vw;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+        margin-right: 10px;
+    }
+
+    .body {
+        margin-bottom: 1px;
+    }
+
+    .right {
+        float: right;
+        width: 65%;
+        font-size: 3.5vw;
+        padding: 40px;
+        margin-top: 250px;
+        text-shadow: 0 2px 1px grey;
+        text-align: center;
+    }
+
+    .left {
+        width: 48%;
+        text-align: center;
+        padding: 100px;
+    }
+
+    .container {
+        float: right;
+        margin: 0;
+    }
+
+    img {
+        width: 45%;
+    }
+
+    footer {
+        background-color: lightpink;
+        padding: 20px;
+    }
+
+ @media screen and (max-width: 1000px) {
+    .header {
+        text-align: center;
+        font-size: 4vw;
+    }
+    .header a {
+        display: block;
+        margin: 10px 0;
+    }
+    .right {
+        font-size: 4vw;
+        padding: 40px;
+        margin-top: 5px;
+        text-align: center;
+    }
+    .left {
+        padding: 60px;
+        margin-top: none;
+
+    }
+    img {
+        width: 155%;
+    }
+
+    footer {
+        padding: 8%;
+    }
+    }
+</style>
